@@ -1,10 +1,10 @@
 public class SugarDecorator extends HotDrinkDecorator{
     private HotDrink hotDrink;
-    private final static String description = "SUGAR";
-    private static double price = 0.05;
 
-    public SugarDecorator(HotDrink hotDrink){
+    public SugarDecorator(HotDrink hotDrink) {
         this.hotDrink = hotDrink;
+        this.description = "SUGAR";
+        this.price = 0.05;
     }
 
     @Override

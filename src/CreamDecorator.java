@@ -1,10 +1,10 @@
 public class CreamDecorator extends HotDrinkDecorator{
     private HotDrink hotDrink;
-    private static final String description = "CREAM";
-    private static double price = 0.1;
 
     public CreamDecorator(HotDrink hotDrink){
         this.hotDrink = hotDrink;
+        this.description = "CREAM";
+        this.price = 0.1;
     }
 
     @Override

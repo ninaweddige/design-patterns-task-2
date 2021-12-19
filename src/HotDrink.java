@@ -1,9 +1,13 @@
 public abstract class HotDrink {
-    private String description;
-    private double price;
+    protected String description = "Unknown hot drink";
+    protected double price = 0.0;
 
-    public abstract String getHotDrinkDescription();
+    public String getHotDrinkDescription(){
+        return description;
+    };
 
-    public abstract double getPrice();
+    public double getPrice(){
+        return price;
+    };
 
 }
